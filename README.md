@@ -2,6 +2,9 @@
 
 A desktop force and cycle testing system built using 3D printer components, a Raspberry Pi Pico, and a load cell.
 
+![image](https://github.com/user-attachments/assets/df4553b8-cf00-4f14-a9e7-02c04bd43322)
+
+
 ## Overview
 
 This project implements a force testing apparatus that can measure tension and compression forces while performing controlled movement cycles. It combines:
@@ -118,8 +121,6 @@ The load cell auto-tares on startup. For accurate force measurements, adjust the
 ## License
 
 MIT License
-
-Copyright (c) [year] [fullname]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
