@@ -9,7 +9,7 @@ A desktop force and cycle testing system built using 3D printer components, a Ra
 
 This project implements a force testing apparatus that can measure tension and compression forces while performing controlled movement cycles. It combines:
 
-- **Motion control**: Uses a 3D printer control board and stepper motor system for precise linear movement
+- **Motion control**: Uses a 3D printer control board (I used a BTT SKR V1.3) and stepper motor system for precise linear movement
 - **Force measurement**: Uses an HX711 load cell amplifier connected to a Raspberry Pi Pico
 - **Position tracking**: Uses an AS5600 magnetic rotary encoder to track precise position
 - **Data visualization**: Real-time plotting of force vs time or position
@@ -19,7 +19,7 @@ The system can perform single movements or cyclic tests with configurable parame
 ## Hardware Requirements
 
 - 3D printer control board (compatible with Marlin firmware)
-- Stepper motor with lead screw (4-start, 10mm lead recommended)
+- Stepper motor with lead screw (4-start, 10mm lead is what I used.  If you use something different you'll need to adjust the steps/mm in the pico firmware)
 - Raspberry Pi Pico
 - HX711 load cell amplifier
 - Load cell (tension/compression)
